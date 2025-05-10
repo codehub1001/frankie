@@ -1,7 +1,7 @@
 import React from 'react'
 import {BrowserRouter as Router,Routes,Route} from 'react-router-dom'
 import Header from './components/Header'
-import Banner from './components/banner'
+import Banner from './components/Banner'
 import About from './pages/About'
 import Portfolio from './pages/Portfolio'
 import ContactUS from './pages/ContactUS'

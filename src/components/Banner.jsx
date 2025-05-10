@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-const Carousel = () => {
+const Banner = () => {
   // Images to display in the carousel
   const images = [
     './img/img1.jpg',
@@ -57,4 +57,4 @@ const Carousel = () => {
   );
 };
 
-export default Carousel;
+export default Banner;
