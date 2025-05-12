@@ -20,7 +20,7 @@ const Footer = () => {
 
         {/* Copyright */}
         <div className="text-xs text-gray-400 text-center md:text-right">
-          © 2025 Timeless Interiors. All rights reserved.
+          © 2025 Timeless Interiors . All rights reserved.
         </div>
       </div>
     </footer>
