@@ -7,7 +7,7 @@ import Portfolio from './pages/Portfolio'
 import ContactUS from './pages/ContactUS'
 import Slider from './components/Slider'
 import Why from './components/Why'
-import Footer from './components/footer'
+import Footer from './components/Footer'
 
 function App() {
  
