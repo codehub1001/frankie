@@ -126,9 +126,9 @@ const ContactUs = () => {
         {/* Contact Info */}
         <div className="mt-12 text-white">
           <h3 className="text-lg font-semibold">Our Location</h3>
-          <p className="text-md">123 Design Ave, Suite 101, City, State, ZIP</p>
+          <p className="text-md">Abuja, Nigeria</p>
           <h3 className="mt-6 text-lg font-semibold">Phone</h3>
-          <p className="text-md">(123) 456-7890</p>
+          <p className="text-md">(+234) 8078092964</p>
         </div>
       </div>
     </div>
