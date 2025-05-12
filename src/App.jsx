@@ -7,6 +7,7 @@ import Portfolio from './pages/Portfolio'
 import ContactUS from './pages/ContactUS'
 import Slider from './components/Slider'
 import Why from './components/Why'
+import Footer from './components/footer'
 
 function App() {
  
@@ -27,6 +28,7 @@ function App() {
         <Route path='/contact' element={<ContactUS/>}/>
         <Route path='/portfolio' element={<Portfolio/>}/>
       </Routes>
+      <Footer/>
     </Router>
     
     </>

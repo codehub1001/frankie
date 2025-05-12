@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebookF, faInstagram, faPinterestP } from '@fortawesome/free-brands-svg-icons';
+import { faFacebookF, faInstagram, faPinterestP, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import { FaBars, FaTimes } from 'react-icons/fa';
 
 const Header = () => {
@@ -30,14 +30,14 @@ const Header = () => {
   
       {/* Social Icons */}
       <div className="hidden md:flex space-x-3 text-lg">
-        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.facebook.com/share/1BJ1pkozUh/" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faFacebookF} className="hover:text-[#d1a37b]" />
         </a>
-        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.instagram.com/timelessinteriors001?igsh=eXVwbXJubHNsYnNr" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faInstagram} className="hover:text-[#d1a37b]" />
         </a>
-        <a href="https://pinterest.com" target="_blank" rel="noopener noreferrer">
-          <FontAwesomeIcon icon={faPinterestP} className="hover:text-[#d1a37b]" />
+        <a href="https://wa.me/2348078092964" target="_blank" rel="noopener noreferrer">
+          <FontAwesomeIcon icon={faWhatsapp} className="hover:text-[#d1a37b]" />
         </a>
       </div>
   
